@@ -4,3 +4,6 @@ install:
 
 lint:
 	pylint --disable=R,C hellodetect.py
+
+format:
+	black hellodetect.py
